@@ -45,7 +45,7 @@ case ${1} in
 		sh ./script/server_info.sh ${url} ${report}
 		echo "敏感路径爆破------->>"
 		echo "敏感路径">>$report
-		#敏感路径扫描
+		#敏感路径扫描 
 		pythondict=./python/path_scan/dics
 		python3  ./python/path_scan/web_dir_scan.py -u http://${url}/ -f $pythondict/path_scan.txt
 		echo `cat ./python/path_scan/result.txt`>>$report
