@@ -10,7 +10,7 @@ sh main.sh -u <URL>
 ## Options
 ```
 Options:
-  -h, --help            show this help message and exit
+  -h, --help        show this help message and exit
 
   Mandatory:
     -u URL, --url=URL   URL target
